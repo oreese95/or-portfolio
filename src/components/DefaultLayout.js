@@ -40,7 +40,7 @@ function DefaultLayout(props) {
             <div className='footer mt-auto p-3'>
                 <hr/>
                 <h4><img src={or} width="35"/> by <a href='/'><img src={o2} width="35"/></a></h4>
-                <p>&copy; 2024</p>
+                <p>&copy; Odis Reese 2024</p>
             </div>
         </div>
 

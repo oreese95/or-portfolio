@@ -5,7 +5,7 @@ import egg from "../assets/eggroll.png"
 import rora from "../assets/roraMain.png"
 import ot from "../assets/OTLogo.png"
 import cld from "../assets/cloudy.png"
-import UT from "../assets/Texas-Longhorns-logo.png"
+import UT from "../assets/utATX.png"
 import reel from "../assets/reel.png"
 import { Button, Divider } from 'antd'
 import { Link } from 'react-router-dom'
@@ -69,6 +69,7 @@ function Work() {
               <h3>O'Cinema</h3>
               <p>React Movie Search App</p>
               <Button style={{ backgroundColor: "dodgerblue", color: "whitesmoke" }} href="http://odis-react-movie-app.s3-website.us-east-2.amazonaws.com" target="_blank">View</Button>
+              <Button style={{ backgroundColor: "dodgerblue", color: "whitesmoke" }} href="https://github.com/oreese95/React-Movie-Search" target="_blank">Github</Button>
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -77,6 +78,7 @@ function Work() {
               <h3>Weather App</h3>
               <p>Google's 90min Coding Challenge</p>
               <Button style={{ backgroundColor: "dodgerblue", color: "whitesmoke" }} href="https://odis-react-weather-app.s3.amazonaws.com/index.html" target="_blank">View</Button>
+              <Button style={{ backgroundColor: "dodgerblue", color: "whitesmoke" }} href="https://github.com/oreese95/react-weather-app_2024" target="_blank">Github</Button>
             </div>
           </SwiperSlide>
           <SwiperSlide>
