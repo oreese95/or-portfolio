@@ -10,7 +10,6 @@ import reel from "../assets/reel.png"
 import { Button, Divider } from 'antd'
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -21,7 +20,7 @@ function Work() {
   return (
     <DefaultLayout>
       <Divider />
-      <h1 className='myWorkTitle'>Past Work</h1>
+      <h1 className='myWorkTitle'>Projects</h1>
       <div className='container myWork'>
         <Swiper
           effect={'coverflow'}

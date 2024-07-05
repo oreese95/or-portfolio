@@ -7,7 +7,8 @@ import html from "../assets/html5-12.png"
 import js from "../assets/JavaScript-logo.png"
 import node from "../assets/node.png"
 import njs from "../assets/nodejs.png"
-import git from "../assets/icons8-github-30.png"
+import git from "../assets/github.png"
+import linkedIN from "../assets/linkedin.png"
 import gmail from "../assets/icons8-gmail-144.png"
 import light from "../assets/light.png"
 import fig from "../assets/Figma-1-logo.png"
@@ -31,15 +32,16 @@ function Home() {
                     <div className='col-lg-6 pt-5'>
                         <h1><b>Odis Reese</b></h1>
                         <div className="flex">
-                            <h3 className='color'><Typewriter words={['UI/UX Designer.', 'Front End Developer;', 'UX Researcher.', 'AWS Cloud Architect.', 'Entrepreneur.']} cursor loop={false} /></h3>
+                            <h3 className='color'><Typewriter words={['UI/UX Designer.', 'Front End Developer;', 'UX Researcher.', 'AWS Cloud Architect.', 'AI Engineer.', 'Entrepreneur.', 'Business Owner.']} cursor loop={false} /></h3>
                         </div>
                         {/* <h3>Developer;<br />designer.<br />Business Strategist</h3> */}
                         <p>A dedicated individual who always strives to work on end to end products which develop sustainable, inovative, and scalable technial systems to create impact.</p>
-                        <div className='pb-3'>
-                            <a href='https://github.com/oreese95' target="_blank"><img src={git} width="35"/></a>&nbsp;&nbsp;
-                            <a href="mailto:Reese.Odis29@Gmail.com" target="_blank"><img src={gmail} width="35"/></a>
+                        <div className='pb-4'>
+                            <a href='https://github.com/oreese95' target="_blank"><img src={git} width="35"/></a>&nbsp;&nbsp;&nbsp;
+                            <a href="mailto:Reese.Odis29@Gmail.com" target="_blank"><img src={gmail} width="35"/></a>&nbsp;&nbsp;&nbsp;
+                            <a href="https://www.linkedin.com/in/odisreese/" target="_blank"><img src={linkedIN} width="35"/></a>
                         </div>
-                    </div>
+                    </div><br/><br/>
                     <div className='col-lg-6 d-flex justify-content-center'>
                         <img src={or} width="430" />
                     </div>
