@@ -2,8 +2,9 @@ import React, { useEffect, useRef } from 'react'
 import DefaultLayout from '../components/DefaultLayout'
 import mcm from "../assets/Centennial_Logo.png"
 import aws2 from "../assets/awsBadge.png"
-import ibm from "../assets/Badges_v8-07_Practitioner.png"
+import ibmUX from "../assets/Badges_v8-07_Practitioner.png"
 import ML from "../assets/ML_ibm.png"
+import compVis from "../assets/compVis.png"
 import deepL from "../assets/DeepLearn_ibm.png"
 import { Divider } from 'antd'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -57,7 +58,7 @@ function Education() {
           </SwiperSlide>
           <SwiperSlide>
             <div className='bxs p-3 onBig-2'>
-              <img src={ibm} width="150" />
+              <img src={ibmUX} width="150" />
               <Divider style={{ backgroundColor: "dodgerblue" }} />
               <h3><b>IBM</b></h3>
               <p>Enterprise Design Thinking Practitioner</p>
@@ -77,6 +78,14 @@ function Education() {
               <Divider style={{ backgroundColor: "dodgerblue" }} />
               <h3><b>IBM</b></h3>
               <p>Deep Learning with Keras</p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='bxs p-3 onBig-2'>
+              <img src={compVis} width="150" />
+              <Divider style={{ backgroundColor: "dodgerblue" }} />
+              <h3><b>IBM</b></h3>
+              <p>Computer Vision and Image Processing</p>
             </div>
           </SwiperSlide>
           </Swiper>
