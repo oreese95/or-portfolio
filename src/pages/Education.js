@@ -16,7 +16,7 @@ function Education() {
 
   return (
     <DefaultLayout>
-      <div className='container'>
+      <div className='container pt-3'>
         <div className='row'>
           <h1>Degree</h1>
           <div className='col-lg-12 d-flex justify-content-center'>

@@ -38,10 +38,6 @@ box-shadow:  8px 8px 16px #d9d9d9,
   width: 350px;
 }
 
-.myWork{
-  margin-top: 50px;
-}
-
 @media screen and (max-width:450px) {
   .myWork{
     margin-top: 30px;
