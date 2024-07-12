@@ -6,6 +6,7 @@ import ibmUX from "../assets/Badges_v8-07_Practitioner.png"
 import ML from "../assets/ML_ibm.png"
 import compVis from "../assets/compVis.png"
 import deepL from "../assets/DeepLearn_ibm.png"
+import dnn from "../assets/DNNPT.png"
 import { Divider } from 'antd'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -86,6 +87,14 @@ function Education() {
               <Divider style={{ backgroundColor: "dodgerblue" }} />
               <h3><b>IBM</b></h3>
               <p>Computer Vision and Image Processing</p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='bxs p-3 onBig-2'>
+              <img src={dnn} width="150" />
+              <Divider style={{ backgroundColor: "dodgerblue" }} />
+              <h3><b>IBM</b></h3>
+              <p>Deep Neural Networks with PyTorch</p>
             </div>
           </SwiperSlide>
           </Swiper>

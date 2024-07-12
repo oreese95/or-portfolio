@@ -1,13 +1,12 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import DefaultLayout from '../components/DefaultLayout'
-import juana from "../assets/juana.png"
 import egg from "../assets/eggroll.png"
 import rora from "../assets/roraMain.png"
 import ot from "../assets/OTLogo.png"
 import cld from "../assets/cloudy.png"
 import UT from "../assets/utATX.png"
 import reel from "../assets/reel.png"
-import { Button, Divider } from 'antd'
+import { Button } from 'antd'
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
