@@ -6,6 +6,7 @@ import ot from "../assets/OTLogo.png"
 import cld from "../assets/cloudy.png"
 import UT from "../assets/utATX.png"
 import reel from "../assets/reel.png"
+import stop from "../assets/stop-sign.png"
 import { Button } from 'antd'
 import { Link } from 'react-router-dom'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -21,6 +22,34 @@ function Work() {
       <div className='container pt-3'>
         <h1>Projects</h1>
         <div className='pt-4'>
+          <div className='mb-4'>
+            <h4>A.I. Models</h4>
+            <Swiper
+              effect={'coverflow'}
+              grabCursor={true}
+              centeredSlides={true}
+              slidesPerView={'auto'}
+              coverflowEffect={{
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: false,
+              }}
+              pagination={true}
+              modules={[EffectCoverflow, Pagination]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <div className='bxs p-3'>
+                  <img className='pt-2 pb-2' src={stop} width="150" />
+                  <h3>Stop Sign Detection</h3>
+                  <p>Image Detection/Classification Project</p>
+                  <Button style={{ backgroundColor: "dodgerblue", color: "whitesmoke" }} href="https://stop-sign-detection-668d55c5fee0a9331ea4f2bc.1j42icg2gad3.eu-gb.codeengine.appdomain.cloud" target="_blank">Visit</Button>
+                </div>
+              </SwiperSlide>
+            </Swiper>
+          </div>
           <div className='mb-5'>
             <h4>Design &amp; Development</h4>
             <Swiper
