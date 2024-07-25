@@ -8,6 +8,7 @@ import compVis from "../assets/compVis.png"
 import deepL from "../assets/DeepLearn_ibm.png"
 import dnn from "../assets/DNNPT.png"
 import DL_TF from "../assets/DL_TF.png"
+import ibm from "../assets/Professional_Certificate_-_AI_Engineering.png"
 import { Divider } from 'antd'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -50,6 +51,14 @@ function Education() {
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
         >
+          <SwiperSlide>
+            <div className='bxs p-3 onBig-2'>
+              <img src={ibm} width="150" />
+              <Divider style={{ backgroundColor: "dodgerblue" }} />
+              <h3><b>IBM</b></h3>
+              <p>AI Engineering Professional</p>
+            </div>
+          </SwiperSlide>
           <SwiperSlide>
             <div className='bxs p-3 onBig-2'>
               <img src={aws2} width="150" />
