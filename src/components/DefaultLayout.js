@@ -4,7 +4,7 @@ import o2 from "../assets/O-Logo.png";
 import or from "../assets/OR_memoji.png";
 import { Squash as Hamburger } from 'hamburger-react'
 import { Link, NavLink, useParams } from 'react-router-dom';
-import pdf from "../ORresume18.pdf"
+import pdf from "../ORresume24_WEB.pdf"
 
 function DefaultLayout(props) {
     return (
