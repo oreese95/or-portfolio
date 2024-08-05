@@ -3,7 +3,7 @@ import o from "../assets/O-Logo 3.png";
 import o2 from "../assets/O-Logo.png";
 import or from "../assets/OR_memoji.png";
 import { Squash as Hamburger } from 'hamburger-react'
-import { Link, NavLink, useParams } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import pdf from "../ORresume24_WEB.pdf"
 
 function DefaultLayout(props) {
