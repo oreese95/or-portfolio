@@ -8,6 +8,7 @@ import compVis from "../assets/compVis.png"
 import deepL from "../assets/DeepLearn_ibm.png"
 import dnn from "../assets/DNNPT.png"
 import DL_TF from "../assets/DL_TF.png"
+import sql from "../assets/sql.JPG"
 import ibm from "../assets/Professional_Certificate_-_AI_Engineering.png"
 import { Divider } from 'antd'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -113,6 +114,14 @@ function Education() {
               <Divider style={{ backgroundColor: "dodgerblue" }} />
               <h3><b>IBM</b></h3>
               <p>Deep Learning with Tensorflow</p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className='bxs p-3 onBig-2'>
+              <img src={sql} width="205" />
+              <Divider style={{ backgroundColor: "dodgerblue" }} />
+              <h3><b>Solo Learn</b></h3>
+              <p>SQL Fundamentals</p>
             </div>
           </SwiperSlide>
           </Swiper>
